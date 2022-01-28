@@ -57,7 +57,7 @@
                 <li><?php echo $i_am_legend->year; ?></li>
                 <li><?php echo $i_am_legend->genre; ?></li>
                 <li><?php echo $i_am_legend->director; ?></li>
-                <li> Titolo: <?php $i_am_legend->getTitleAndGenre(); ?></li>
+                <li>Titolo: <?php $i_am_legend->getTitleAndGenre(); ?></li>
             </ul>
         </div>
 
@@ -68,7 +68,7 @@
                 <li><?php echo $troy->year ?></li>
                 <li><?php echo $troy->genre; ?></li> 
                 <li><?php echo $troy->director; ?></li>
-                <li><?php echo $troy->getTitleAndGenre(); ?></li>
+                <li>Titolo: <?php echo $troy->getTitleAndGenre(); ?></li>
             </ul>
         </div>
 
@@ -79,7 +79,7 @@
                 <li><?php echo $interstellar->year ?></li>
                 <li><?php echo $interstellar->genre; ?></li>
                 <li><?php echo $interstellar->director; ?></li>
-                <li><?php echo $interstellar->getTitleAndGenre(); ?></li>
+                <li>Titolo: <?php echo $interstellar->getTitleAndGenre(); ?></li>
             </ul>
         </div>
     </body>
